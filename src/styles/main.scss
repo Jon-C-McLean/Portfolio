@@ -1,0 +1,65 @@
+$font: 'Courier New', Courier, monospace;
+
+// Colors
+$white: #fff;
+$black: #000;
+$darkGrey: #393B3D;
+$text: #69E986;
+$offWhite: #f2f4f5;
+
+body {
+    font-family: $font;
+    background-color: $darkGrey;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    background-color: $darkGrey;
+    height: 80px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    position: absolute;
+    z-index: 100;
+
+    .inner-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 80px;
+
+        .logo {
+            font-weight: 700;
+            font-size: 1.25rem;
+            a {
+                color: $offWhite;
+            }
+
+            margin-left: 75px;
+        }
+
+        .links {
+            nav {
+                a {
+                    color: $offWhite;
+                    letter-spacing: 1.7px;
+                    font-family: "Arial";
+                    span.numbering {
+                        color: $text;
+                        margin-right: 8px;
+                        font-family: $font;
+                    }
+
+                    margin: 0px 20px;
+                    &:last-child {
+                        margin-right: 75px;
+                    }
+                }
+            }
+        }
+    }
+}
