@@ -8,9 +8,10 @@ $text: #69E986;
 $offWhite: #f2f4f5;
 
 body {
-    font-family: $font;
+    font-family: "Arial";
     background-color: $darkGrey;
     font-size: 16px;
+    color: $offWhite;
 }
 
 a {
@@ -48,10 +49,9 @@ a {
                     color: $offWhite;
                     letter-spacing: 1.7px;
                     font-family: "Arial";
+
                     span.numbering {
-                        color: $text;
                         margin-right: 8px;
-                        font-family: $font;
                     }
 
                     margin: 0px 20px;
@@ -63,3 +63,108 @@ a {
         }
     }
 }
+
+span.numbering {
+    color: $text;
+    font-family: $font;
+}
+
+main {
+    position: relative;
+    background-color: $darkGrey;
+    width: 100%;
+}
+
+section.banner {
+    max-width: 1000px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 75vh;
+    margin: 0px auto;
+    padding: 75px 0px;
+
+    .inner-banner {
+        .banner-title {
+            color: $text;
+            font-size: 3rem;
+            font-family: $font;
+        }
+
+        .keypoint {
+            font-size: 7rem;
+        }
+
+        .content {
+            margin-top: 45px;
+            font-size: 1.3rem;
+            width: 85%;
+            opacity: 0.7;
+        }
+    }
+}
+
+.error {
+    max-width: 1000px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 75vh;
+    margin: 0px auto;
+    padding: 75px 0px;
+
+    .error-title {
+        color: $text;
+        font-size: 3rem;
+        font-family: $font;
+    }
+
+    .keypoint {
+        font-size: 7rem;
+    }
+
+    .content {
+        margin-top: 45px;
+        font-size: 1.3rem;
+        width: 85%;
+        opacity: 0.7;
+    }
+}
+
+.footer {
+    position:absolute;
+    z-index: 99;
+    left: 0px;
+    width: 100%;
+    .inner-footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 75px;
+        margin-right: 75px;
+
+        .copyright {
+            font-size: 1rem;
+            opacity: 0.5;
+            font-family: $font;
+        }
+    }
+
+    bottom: 30px;
+}
+
+.nofade {
+    color: $offWhite;
+}
+
+.somefade {
+    color: $offWhite;
+    opacity: 0.6;
+}
+
