@@ -7,6 +7,12 @@ $darkGrey: #393B3D;
 $text: #69E986;
 $offWhite: #f2f4f5;
 
+// Animations
+@keyframes list-hover {
+    from { opacity: 1; }
+    to { opacity: 0.5; }
+}
+
 body {
     font-family: "Arial";
     background-color: $darkGrey;
@@ -150,13 +156,17 @@ section.banner {
         margin-right: 75px;
 
         .copyright {
+            a {
+                color: $offWhite;
+            }
             font-size: 1rem;
             opacity: 0.5;
             font-family: $font;
         }
+
     }
 
-    padding-bottom: 30px;
+    bottom: 30px;
 }
 
 .nofade {
@@ -197,7 +207,83 @@ section.pageContent {
     }
 }
 
-.project-container {
+section.list-content {
+    max-width: 1000px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 75vh;
+    margin: 0px auto;
+    padding: 75px 0px;
+
+    .inner-list {
+        .title {
+            font-size: 2.5rem;
+            span.numbering {
+                font-family: $font;
+                font-size: 2.0rem;
+                color: $text;
+                margin-right: 16px;
+            }
+        }
+
+        .intro {
+            font-size: 1.2rem;
+            width: 85%;
+        }
+
+        .list {
+            margin-top: 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 85%;
+
+            .content {
+                width: 50%;
+                
+                ul {
+                    padding-left: 0px;
+                    margin: 0px;
+                    list-style: none;
+
+                    li {
+                        font-size: 1.25rem;
+                        vertical-align: middle;
+                        margin-top: 20px;
+                        //background-color: blue;
+                        height: 40px;
+                        line-height: 40px;
+                        padding-left: 30px;
+                        &:first-child {
+                            margin-top: 0px;
+                        }
+                    }
+
+                    li:hover {
+                        animation-name: list-hover;
+                        animation-duration: 0.2s;
+                        opacity: 0.5;
+                    }
+
+                    
+                }
+
+            }
+            
+            .detail-panel {
+                width: 50%;
+                background-color: pink;
+                padding-left: 30px;
+            }
+        }
+    }
+}
+
+/*.project-container {
     .project {
         display: grid;
         grid-template-columns: repeat(12, 1fr);
@@ -227,5 +313,5 @@ section.pageContent {
             }
         }
     }
-}
+}*/
 
