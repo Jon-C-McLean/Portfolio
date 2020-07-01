@@ -284,6 +284,17 @@ section.list-content {
                     .company {
                         color: $text;
                         font-family: $text;
+
+                        a {
+                            color: $text;
+                        }
+
+                        // TODO: Add hover animation for company link
+                        /*a:hover {
+                            animation-name: list-hover;
+                            animation-duration: 0.3s;
+                            opacity: 0.5;
+                        }*/
                     }
                 }
 

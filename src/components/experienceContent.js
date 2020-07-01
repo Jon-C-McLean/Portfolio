@@ -17,19 +17,21 @@ const ExperienceContent = () => {
                     <div className="content">
                         <ul>
                             <li>CardCastle</li>
-                            <li>Origma</li>z
+                            <li>Origma</li>
                             <li>Freelancing</li>
                         </ul>
                     </div>
                     <div className="detail-panel">
-                        <div className="detail-title">Developer <span className="company">@ CardCastle</span></div>
-                        <div className="detail-date">April 2019<span className="hyphon">-</span>Feb 2020</div>
-                        <ul>
-                            <li>Developed major and complex features for iOS application according to given specifications</li>
-                            <li>Reviewed other contributors' additions to the codebase, their merge requests, and provided feedback</li>
-                            <li>Maintained a combined Objective-C/Swift codebase for the iOS application</li>
-                            <li>Developed unit testing automation systems</li>
-                        </ul>
+                        <div>
+                            <div className="detail-title">Developer <span className="company"><Link to="https://cardcastle.co">@ CardCastle</Link></span></div>
+                            <div className="detail-date">April 2019<span className="hyphon">-</span>Feb 2020</div>
+                            <ul>
+                                <li>Developed major and complex features for iOS application according to given specifications</li>
+                                <li>Reviewed other contributors' additions to the codebase, their merge requests, and provided feedback</li>
+                                <li>Maintained a combined Objective-C/Swift codebase for the iOS application</li>
+                                <li>Developed unit testing automation systems</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
