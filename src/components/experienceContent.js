@@ -17,7 +17,7 @@ const ExperienceContent = () => {
                     <div className="content">
                         <ul>
                             <li>CardCastle</li>
-                            <li>Origma</li>
+                            <li>Origma</li>z
                             <li>Freelancing</li>
                         </ul>
                     </div>
