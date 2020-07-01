@@ -13,7 +13,9 @@ const Header = () => {
                 <div className="links">
                     <nav>
                         <Link to="/about"><span className="numbering">01.</span>About</Link>
-                        <Link to="/projects"><span className="numbering">02.</span>Projects</Link>
+                        <Link to="/experience"><span className="numbering">02.</span>Experience</Link>
+                        <Link to="https://github.com/Jon-C-McLean"><span className="numbering">03.</span>Work</Link>
+                        <Link to="/contact"><span className="numbering">04.</span>Contact</Link>
                     </nav>
                 </div>
             </div> 
