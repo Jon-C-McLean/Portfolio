@@ -32,6 +32,16 @@ const ExperienceContent = () => {
                                 <li>Developed unit testing automation systems</li>
                             </ul>
                         </div>
+                        <div hidden="true;">
+                            <div className="detail-title">Developer/Consultant <span className="company"><Link to="https://origma.com.au">@ Origma</Link></span></div>
+                            <div className="detail-date">Nov 2018<span className="hyphon">-</span>Feb 2020</div>
+                            <ul>
+                                <li>Developed major and complex features for iOS application according to given specifications</li>
+                                <li>Provided consulting on all mobile development projects</li>
+                                <li>Maintained all iOS codebases, repositories, and projects</li>
+                                <li>Maintained testing systems for iOS projects</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
