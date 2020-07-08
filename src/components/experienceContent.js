@@ -16,6 +16,18 @@ const ExperienceContent = () => {
 
                 <div className="list">
                     <div className="list-element">
+                        <div className="experienceName">Freelancing</div>
+                        <div className="experienceContent">
+                            <div className="detail-title">Freelancer <span className="company"><Link to="https://upwork.com">@ Upwork</Link></span></div>
+                            <div className="detail-date">Feb 2020<span className="hyphon">-</span>Current</div>
+                            <ul>
+                                <li>Worked for many international clients on a variety of projects sizes</li>
+                                <li>Developed and maintained relationships with clients</li>
+                                <li>Developed iOS, web, and desktop applications under extreme time restrictions</li> 
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="list-element">
                         <div className="experienceName">CardCastle</div>
                         <div className="experienceContent">
                             <div className="detail-title">Developer <span className="company"><Link to="https://cardcastle.co">@ CardCastle</Link></span></div>
@@ -39,19 +51,6 @@ const ExperienceContent = () => {
                                 <li>Provided consulting on all mobile development projects</li>
                                 <li>Maintained all iOS codebases, repositories, and projects</li>
                                 <li>Maintained testing systems for iOS projects</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div className="list-element">
-                        <div className="experienceName">Freelancing</div>
-                        <div className="experienceContent">
-                            <div className="detail-title">Freelancing <span className="company"><Link to="https://upwork.com">@ Upwork</Link></span></div>
-                            <div className="detail-date">Feb 2020<span className="hyphon">-</span>Current</div>
-                            <ul>
-                                <li>Worked for many international clients on a variety of projects sizes</li>
-                                <li>Developed and maintained relationships with clients</li>
-                                <li>Developed iOS, web, and desktop applications under extreme time restrictions</li> 
                             </ul>
                         </div>
                     </div>
