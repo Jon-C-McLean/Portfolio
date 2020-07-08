@@ -148,6 +148,7 @@ section.banner {
     z-index: 99;
     left: 0px;
     width: 100%;
+    margin-bottom: 30px;
     .inner-footer {
         display: flex;
         align-items: center;
@@ -165,8 +166,6 @@ section.banner {
         }
 
     }
-
-    bottom: 30px;
 }
 
 .nofade {
@@ -236,85 +235,52 @@ section.list-content {
         }
 
         .list {
-            margin-top: 50px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
             width: 85%;
 
-            .content {
-                width: 50%;
-                
-                ul {
-                    padding-left: 0px;
-                    margin: 0px;
-                    list-style: none;
+            .list-element {
+                padding-top: 100px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
 
-                    li {
-                        font-size: 1.25rem;
-                        vertical-align: middle;
-                        margin-top: 20px;
-                        //background-color: blue;
-                        height: 40px;
-                        line-height: 40px;
-                        padding-left: 30px;
-                        &:first-child {
-                            margin-top: 0px;
-                        }
-                    }
-
-                    li:hover {
-                        animation-name: list-hover;
-                        animation-duration: 0.2s;
-                        opacity: 0.5;
-                    }
-
-                    
-                }
-
-            }
-            
-            .detail-panel {
-                width: 50%;
-                //background-color: pink;
-                padding-left: 30px;
-
-                .detail-title {
+                .experienceName {
+                    width: 50%;
                     font-size: 1.25rem;
-                    .company {
-                        color: $text;
-                        font-family: $text;
+                }
 
-                        a {
+                .experienceContent {
+                    width: 50%;
+
+                    .detail-title {
+                        font-size: 1.25rem;
+                        .company {
                             color: $text;
+                            font-family: $text;
+    
+                            a {
+                                color: $text;
+                            }
                         }
-
-                        // TODO: Add hover animation for company link
-                        /*a:hover {
-                            animation-name: list-hover;
-                            animation-duration: 0.3s;
-                            opacity: 0.5;
-                        }*/
                     }
-                }
 
-                .detail-date {
-                    font-size: 0.9rem;
-                    font-family: $font;
-                    opacity: 0.7;
-
-                    .hyphon {
-                        margin-right: 5px;
-                        margin-left: 5px;
+                    .detail-date {
+                        font-size: 0.9rem;
+                        font-family: $font;
+                        opacity: 0.7;
+    
+                        .hyphon {
+                            margin-right: 5px;
+                            margin-left: 5px;
+                        }
                     }
-                }
-
-                ul {
-                    padding-left: 10px;
-                    list-style: square;
-
-                    li {
-                        font-size: 1.1rem;
+    
+                    ul {
+                        padding-left: 10px;
+                        list-style: square;
+    
+                        li {
+                            font-size: 1.1rem;
+                        }
                     }
                 }
             }
@@ -322,35 +288,7 @@ section.list-content {
     }
 }
 
-/*.project-container {
-    .project {
-        display: grid;
-        grid-template-columns: repeat(12, 1fr);
-        -webkit-box-align: center;
-        align-items: center;
-        margin-bottom: 100px;
-        gap: 10px;
-
-        .project-content {
-            position: relative;
-            grid-row: 1 / -1;
-
-            .project-title {
-                font-size: 28px;
-                color: $offWhite;
-                margin: 0px 0px 20px;
-            }
-
-            .image-container {
-                position: relative;
-                overflow: hidden;
-                width: 100%;
-                max-width: 100%;
-                vertical-align: middle;
-                mix-blend-mode: multiply;
-                border-radius: 3px;
-            }
-        }
-    }
-}*/
+.active {
+    background-color: red;
+}
 
