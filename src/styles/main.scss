@@ -6,6 +6,7 @@ $black: #000;
 $darkGrey: #393B3D;
 $text: #69E986;
 $offWhite: #f2f4f5;
+$red: #EC6969;
 
 // Animations
 @keyframes list-hover {
@@ -150,7 +151,7 @@ section.banner {
     padding: 75px 0px;
 
     .error-title {
-        color: $text;
+        color: $red;
         font-size: 3rem;
         font-family: $font;
     }
