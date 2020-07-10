@@ -23,8 +23,8 @@ function SEO({description, lang, meta, title}) {
     return (
         <Helmet 
             htmlAttributes={{lang,}}
-            title={title}
-            titleTemplate={`Jon McLean | Software Engineer`}
+            title={`Jon McLean | Software Engineer`}
+            //titleTemplate={`Jon McLean | Software Engineer`}
             meta={[
                 {
                     name: `description`,
