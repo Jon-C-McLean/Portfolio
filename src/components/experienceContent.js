@@ -1,6 +1,5 @@
-import React, { Component } from "react"
+import React from "react"
 import { Link } from "gatsby"
-import classNames from "classnames";
 
 import "../styles/main.scss"
 
