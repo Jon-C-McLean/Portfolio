@@ -15,8 +15,9 @@ const AboutContent = () => {
                     University of Technology Sydney. I specialize in developing mobile applications, primarily for iOS, and their respective backend APIs. 
                     <br/>
                     <br/>
-                    I work on my own projects in my freetime. Currently I am working on developing a polical polling application based of the swiping idea in the
-                    popular dating app Tinder.
+                    I work on my own projects in my freetime. Currently I am working on developing a political polling application based of the swiping idea in the
+                    popular dating app Tinder. I am also currently working on a Brabender Extrusion Data Grapher that allows for improved graphing of manufacturing/quality
+                    data outputted by the Brabender Extrusion software.
                 </div>
             </div>
         </section>
