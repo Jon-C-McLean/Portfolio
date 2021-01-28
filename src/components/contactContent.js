@@ -4,7 +4,7 @@ const ContactContent = () => {
     return (
         <section className="banner">
             <div className="inner-banner">
-                <div className="banner-title">What do to next</div>
+                <div className="banner-title">What to do next</div>
                 <div className="keypoint nofade">Get in contact</div>
                 <div className="content fade">
                     I am always looking for new and exciting opportunities to explore. My inbox is always open to whoever would like to contact me!
