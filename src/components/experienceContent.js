@@ -14,27 +14,27 @@ const ExperienceContent = () => {
                 </div>
 
                 <div className="list">
-                    <div className="list-element">
-                        <div className="experienceName">CathRx</div>
-                        <div className="experienceContent">
-                            <div className="detail-title">Software Engineering Intern <span className="company"><Link to="https://cathrx.com">@ CathRx</Link></span></div>
-                            <div className="detail-date">July 2020<span className="hyphon">-</span>Current</div>
-                            <ul>
-                                <li>Designed/modelled application architecture and database</li>
-                                <li>Developed Cable Manufacturing Database and Software</li>
-                                <li>Developed custom search query language specifically for the manufacturing software</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div className="list-element">
+                <div className="list-element">
                         <div className="experienceName">Freelancing</div>
                         <div className="experienceContent">
                             <div className="detail-title">Freelancer <span className="company"><Link to="https://upwork.com">@ Upwork</Link></span></div>
-                            <div className="detail-date">Feb 2020<span className="hyphon">-</span>July 2020</div>
+                            <div className="detail-date">Feb 2020<span className="hyphon">-</span>Current</div>
                             <ul>
                                 <li>Worked for many international clients on a variety of projects sizes</li>
                                 <li>Developed and maintained relationships with clients</li>
                                 <li>Developed iOS, web, and desktop applications under extreme time restrictions</li> 
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="list-element">
+                        <div className="experienceName">CathRx</div>
+                        <div className="experienceContent">
+                            <div className="detail-title">Software Engineering Intern <span className="company"><Link to="https://cathrx.com">@ CathRx</Link></span></div>
+                            <div className="detail-date">July 2020<span className="hyphon">-</span>December 2020</div>
+                            <ul>
+                                <li>Designed/modelled application architecture and database</li>
+                                <li>Developed Cable Manufacturing Database and Software</li>
+                                <li>Developed custom search query language specifically for the manufacturing software</li>
                             </ul>
                         </div>
                     </div>
