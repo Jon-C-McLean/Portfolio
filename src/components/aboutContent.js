@@ -11,12 +11,12 @@ const AboutContent = () => {
                 <div className="banner-title">And I am a</div>
                 <div className="keypoint somefade">Software Engineer</div>
                 <div className="content">
-                    I am currently a second year software engineering student doing a Bachelor of Engineering (Hons) majoring in Software at the 
-                    University of Technology Sydney. I specialize in developing mobile applications, primarily for iOS, and their respective backend APIs. 
+                    I am currently a third year software engineering student doing a Bachelor of Engineering (Hons) majoring in Software at the 
+                    University of Technology Sydney. I specialize in developing mobile applications, primarily for iOS, and low level system software. 
                     <br/>
                     <br/>
                     I work on my own projects in my freetime. Currently I am working on developing a political polling application based of the swiping idea in the
-                    popular dating app Tinder. I am also currently working on a Brabender Extrusion Data Grapher that allows for improved graphing of manufacturing/quality
+                    popular dating app Tinder. I am also currently working on a project called GraphBender that allows for improved graphing of manufacturing/quality
                     data outputted by the Brabender Extrusion software.
                 </div>
             </div>
