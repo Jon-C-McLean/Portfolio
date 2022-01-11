@@ -14,6 +14,18 @@ const ExperienceContent = () => {
                 </div>
 
                 <div className="list">
+                <div className="list">
+                    <div className="experienceName">Contracted Software Engineer</div>
+                    <div className="experienceContent">
+                        <div className="detail-title">Contractor <span className="company"><Link to="https://shootsta.com">@ Shootsta</Link></span></div>
+                        <div className="detail-date">Nov 2020<span className="hyphon">-</span></div>
+                        <ul>
+                            <li>Developed major complex features within iOS and Android (using Swift and Kotlin)</li>
+                            <li>Solely maintained a large codebase for both iOS and Android</li>
+                            <li>Lead the development of many advanced features including background detection/replacement, non-spaced language support, and local video preprocessing</li>
+                        </ul>
+                    </div>
+                </div>
                 <div className="list-element">
                         <div className="experienceName">Freelancing</div>
                         <div className="experienceContent">
@@ -30,7 +42,7 @@ const ExperienceContent = () => {
                         <div className="experienceName">CathRx</div>
                         <div className="experienceContent">
                             <div className="detail-title">Software Engineering Intern <span className="company"><Link to="https://cathrx.com">@ CathRx</Link></span></div>
-                            <div className="detail-date">July 2020<span className="hyphon">-</span>December 2020</div>
+                            <div className="detail-date">July 2020<span className="hyphon">-</span>January 2021</div>
                             <ul>
                                 <li>Designed/modelled application architecture and database</li>
                                 <li>Developed Cable Manufacturing Database and Software</li>
