@@ -14,7 +14,7 @@ const ExperienceContent = () => {
                 </div>
 
                 <div className="list">
-                <div className="list">
+                <div className="list-element">
                     <div className="experienceName">Contracted Software Engineer</div>
                     <div className="experienceContent">
                         <div className="detail-title">Contractor <span className="company"><Link to="https://shootsta.com">@ Shootsta</Link></span></div>
